@@ -50,7 +50,8 @@
                 "atclone": "print Installing system completions...; mkdir -p $ZPFX/funs; command cp -f $ZPFX/share/zsh/$ZSH_VERSION/functions/^_* $ZPFX/funs; zinit creinstall -q $ZPFX/share/zsh/$ZSH_VERSION/functions;",
                 "atpull": "%atclone",
                 "atload": "fpath=( ${(u)fpath[@]:#$ZPFX/share/zsh/*} ); fpath+=( $ZPFX/funs );",
-                "run-atpull": ""
+                "run-atpull": "",
+                "nocompile": ""
             }
         }
     }
