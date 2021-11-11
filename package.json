@@ -17,7 +17,6 @@
     "_requiredBy": [],
     "_spec": "system-completions@^1.0.0",
     "_where": "/root/pkgs/pkg-system-completions",
-
     "author": "Sebastian Gniazdowski",
     "bugs": {
         "url": "https://github.com/zdharma-continuum/system-completions/issues"
@@ -27,13 +26,11 @@
     "dependencies": {},
     "deprecated": false,
     "description": "A package that brings stock Zsh completions under the control of Zinit",
-
     "homepage": "https://github.com/zdharma-continuum/system-completions/",
     "keywords": [
         "completions",
         "zsh"
     ],
-
     "license": "MIT",
     "name": "zsh-system-completions",
     "zsh-data": {
@@ -42,7 +39,7 @@
             "plugin": "null",
             "version": "1.0.0"
         },
-        "zplugin-ices": {
+        "zinit-ices": {
             "default": {
                 "git": "",
                 "lucid": "",
