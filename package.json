@@ -20,7 +20,7 @@
 
     "author": "Sebastian Gniazdowski",
     "bugs": {
-        "url": "https://github.com/Zsh-Packages/system-completions/issues"
+        "url": "https://github.com/zdharma-continuum/system-completions/issues"
     },
     "version": "1.0.0",
     "contributors": [],
@@ -28,7 +28,7 @@
     "deprecated": false,
     "description": "A package that brings stock Zsh completions under the control of Zinit",
 
-    "homepage": "https://github.com/Zsh-Packages/system-completions/",
+    "homepage": "https://github.com/zdharma-continuum/system-completions/",
     "keywords": [
         "completions",
         "zsh"
@@ -38,7 +38,7 @@
     "name": "zsh-system-completions",
     "zsh-data": {
         "plugin-info": {
-            "user": "zdharma",
+            "user": "zdharma-continuum",
             "plugin": "null",
             "version": "1.0.0"
         },
